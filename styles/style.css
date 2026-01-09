@@ -49,7 +49,7 @@ align-items: center;
     margin-right: 32px;   
 }
 
-/* header-section */
+
  
 /* header-section */
 .banner-section{
@@ -77,10 +77,11 @@ img p{
   align-items: center;
   text-align: center ;
 }
+
 .all-content .top-head{
   display: flex;
   justify-content: center;
-  /* align-items: center; */
+
 }
 
 .all-content .content h1{
@@ -142,12 +143,6 @@ margin-left: 10px;
   margin-right: 10px;
 }
 
-
-
-
-
-
-
   /* notes section */
  .note{
   background-color: #fafafa;
@@ -191,7 +186,6 @@ margin-left: 10px;
 
 .cards{
   padding: 24px;
-  /* margin-bottom: 16px; */
   background-color: #FFFFFF;
   box-shadow: 0 0 8px 0 #00000006;
   
@@ -316,9 +310,9 @@ padding: 120px 0;
 
 }
 .social{
-  text-align: left;
-  padding-right: 50px;
- margin-right: 20px;
+  
+  padding-right: 60px;
+
  
 }
 
@@ -329,23 +323,14 @@ padding: 120px 0;
 }
 .social .icons{
   display: flex;
-  justify-content: space-between;
+  justify-content: space-evenly;
+  
  
 }
 
-.color-icons{
-       
-   width: 35px;
-  height: 35px;
-  border-radius: 50%;
-  background-color: #FFFFFF;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  
-}
+
 .icons .color-icons{
-  margin-right: 16px;
+  margin-right: 6px;
 }
 hr{
   width: 85%;
