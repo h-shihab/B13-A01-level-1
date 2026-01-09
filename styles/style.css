@@ -17,6 +17,7 @@ text-align: center;
   align-items: center;
 background-color: #469165;
 cursor: pointer;
+gap: 5px;
 }
 
 .btn:hover{
@@ -27,6 +28,8 @@ cursor: pointer;
   display: flex;
   justify-content: center;
   align-items: center;
+  margin-bottom: 24px;
+  
 }
 
 /* navigation-section */
@@ -112,7 +115,7 @@ header{
 	
   }
   .button .btn img{
-
+  display: flex;
 justify-content: center;
 align-items: center;
   }
@@ -240,14 +243,13 @@ padding: 120px 0;
 }
 
 /* challenge section */
-.challenge{
 
-}
 
 .challenge .challenge-section{
   width: 85%;
   max-width: 1360px;
   margin: 0 auto 120px auto;
+  border-radius: 12px;
   background-color: #F7F6F2;
   padding: 80px 40px;
   text-align: center;
