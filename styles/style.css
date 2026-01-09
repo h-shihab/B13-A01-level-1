@@ -142,7 +142,7 @@ align-items: center;
 
   display: flex;
   justify-content: space-between;
-  align-items: center;
+  align-items: end;
   text-align: center;
   gap: 24px;
 }
@@ -217,4 +217,30 @@ padding: 120px 0;
   line-height: 20px;
   color: #627382;
   margin-bottom: 40px;
+}
+
+.second-brain .brain-content ul li{
+  list-style: none;
+  display: flex;
+  align-items: center;
+  gap: 5px;
+ margin-bottom: 16px;
+}
+
+ li{
+  line-height: 16px;
+}
+
+/* challenge section */
+.challenge{
+
+}
+
+.challenge .challenge-section{
+  width: 85%;
+  max-width: 1360px;
+  margin: 0 auto 120px auto;
+  background-color: #F7F6F2;
+  padding: 80px 40px;
+  text-align: center;
 }
