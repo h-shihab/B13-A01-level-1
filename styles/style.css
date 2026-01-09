@@ -280,7 +280,7 @@ padding: 120px 0;
   text-align: center;
 }
 
-.challenge .challenge-section h2{
+.challenge .challenge-section h3{
   font-size: 40px;
   margin-bottom: 16px;
 }
@@ -288,7 +288,10 @@ padding: 120px 0;
 .challenge .challenge-section p{
   line-height: 24px;
   color: #627382;
-  margin-bottom: 5px;
+  margin-bottom: 24px;
+}
+.free{
+  margin-top: 16px;
 }
 
 /* footer section */
