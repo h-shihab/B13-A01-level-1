@@ -111,7 +111,7 @@ align-items: center;
 
   /* notes section */
 
-.notes-section, .card-section{
+.notes-section, .card-section, .second-brain{
   width: 85%;
   max-width: 1360px;
   margin: 0 auto;
@@ -182,4 +182,39 @@ align-items: center;
   color: #627382;
   font-size: 16px;
   line-height: 20px;
+}
+
+/* second-brain */
+
+.second{
+padding: 120px 0;
+  display: flex;
+  justify-content: center;
+  /* align-items: center; */
+  gap: 60px;
+}
+.second-brain .brain-content{
+  padding: 120px 0;
+}
+
+.brain-content{
+  text-align: left;
+  align-items: start;
+}
+.second-brain .brain-content .solution{
+  color: #469165;
+  line-height: 20px;
+}
+
+.second-brain .brain-content h2{
+  font-size: 48px;
+  font-weight: bold;
+  margin-bottom: 16px;
+}
+
+.second-brain .brain-content p{
+  font-size: 16px;
+  line-height: 20px;
+  color: #627382;
+  margin-bottom: 40px;
 }
