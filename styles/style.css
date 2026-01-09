@@ -55,7 +55,7 @@ align-items: center;
 header{
    /* width: 100%; */
     /* height: 674px; */
-    margin-bottom: ;
+
     background-image: url(../assets/hero-bg.png);
     background-repeat: no-repeat;
     
@@ -261,4 +261,5 @@ padding: 120px 0;
 .challenge .challenge-section p{
   line-height: 24px;
   color: #627382;
+  margin-bottom: 24px;
 }
